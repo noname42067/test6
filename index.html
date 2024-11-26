@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Edu+AU+VIC+WA+NT+Pre:wght@500&display=swap" rel="stylesheet">
+    <title>Index</title>
+</head>
+
+<body>
+    <header>
+        <h1>Varjúfélék</h1>
+    </header>
+    <div class="container">
+        <nav class="menu">
+            <ul>
+                <li><a href="#" id="active">Kezdőlap</a></li>
+                <li><a href="varju.html">Varjú</a></li>
+                <li><a href="hollo.html">Holló</a></li>
+                <li><a href="szarka.html">Szarka</a></li>
+                <li><a href="szemelyisegteszt.html">Személyiségteszt</a></li>
+            </ul>
+        </nav>
+        <article class="content">
+            <article class="cikk">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu ex ac metus suscipit vehicula quis
+                    nec
+                    tellus. Sed quam eros, venenatis eget erat at, porttitor accumsan ligula. Donec placerat, tellus a
+                    aliquam
+                    porttitor, magna dolor aliquam quam, at euismod nunc lorem vitae nunc. Nulla nibh lectus, pharetra
+                    quis
+                    neque in, consectetur lobortis erat. Ut libero nisi, bibendum a tellus in, maximus laoreet sem. Nam
+                    id
+                    turpis ultrices odio vulputate faucibus sit amet nec nisi. Integer vitae leo sit amet tellus posuere
+                    sodales. Donec malesuada tortor vitae nisl ornare faucibus. Suspendisse efficitur, mauris quis
+                    finibus
+                    lobortis, ligula sem molestie felis, sed aliquet libero mi tincidunt enim. Morbi ornare ligula
+                    mauris,
+                    nec
+                    posuere tortor porta eget. Suspendisse pretium neque vitae luctus lacinia. Maecenas egestas, sapien
+                    sed
+                    ullamcorper tristique, nisi quam efficitur magna, sed ullamcorper lorem ipsum sed lectus. Quisque
+                    suscipit
+                    pretium facilisis. Aliquam sodales arcu et ligula accumsan varius. Nunc rhoncus viverra rhoncus.
+
+                    Sed a lacinia est. Nam consequat, eros at scelerisque aliquet, elit lacus consequat felis, sit amet
+                    rhoncus
+                    ligula nibh id justo. Cras tempor sem sit amet massa cursus, at malesuada mauris posuere. Vestibulum
+                    ut
+                    urna
+                    non enim tristique vulputate in sed purus. Maecenas sit amet facilisis risus, nec ornare magna.
+                    Nullam
+                    quis
+                    arcu imperdiet lorem commodo fringilla. Donec id consequat risus, sed maximus orci. Fusce nec
+                    sollicitudin
+                    eros.
+
+                    Mauris condimentum condimentum mauris. Praesent sit amet eros tortor. Donec finibus neque id ipsum
+                    sollicitudin, at ultrices erat posuere. In at iaculis sapien. Etiam accumsan, est nec vehicula
+                    condimentum,
+                    orci urna vulputate nibh, sed eleifend velit metus facilisis nisl. Curabitur condimentum erat sit
+                    amet
+                    luctus mattis. Quisque eu accumsan ante. Donec laoreet elementum ante vel scelerisque. Nunc
+                    vestibulum
+                    pharetra dignissim. Sed placerat nulla nibh. Quisque vitae consectetur justo, at condimentum odio.
+                </p>
+            </article>
+            <article class="urlap">
+                <form method="get" action="https://rf.uni-corvinus.hu/webfejlesztes/receive.php">
+                    <h1>Kérjük töltse ki ezt a kérdőívet!</h1>
+                    <label>Hány csillagosra értékeled az oldalt?<br>
+                        <input type="range" name="csillagok" min="1" max="5" value="3" step="1"></label><br>
+                    <label>Írja le véleményét! <br>
+                        <textarea name="velemeny"></textarea></label><br>
+                    <label>Hol él jelenleg?<br>
+                        <select name="honnan">
+                            <option value="Eu">Európa</option>
+                            <option value="Am">Amerika</option>
+                            <option value="Azs">Ázsia</option>
+                            <option value="Afr">Afrika</option>
+                            <option value="Ausz">Ausztrália és Óceánia</option>
+                            <option value="Ant">Antartika</option>
+                        </select></label><br>
+                    <p>Melyik madárról szeretne még többet olvasni?</p>
+                    <label><input type="checkbox" name="tobbvarju"> Varjú</label><br>
+                    <label><input type="checkbox" name="tobbhollo"> Holló</label><br>
+                    <label><input type="checkbox" name="tobbszarka"> Szarka</label><br>
+                    <label><input type="checkbox" name="tobbegyeb"> Egyéb</label><br>
+                    <p>Szeretne feliratkozni hírlevelünkre?</p>
+                    <label><input type="radio" name="feliratkozas" value="igen"> Igen</label><br>
+                    <label><input type="radio" name="feliratkozas" value="nem"> Nem</label><br>
+                    <label>Hogy hívják Önt?<br> <input type="text" name="nev"></label><br>
+                    <label>Telefonszáma: <br>
+                        <input type="tel" name="telefon" pattern="[0-9]{2}-[0-9]{2}-[0-9]{3}-[0-9]{4}"
+                            placeholder="00-00-000-0000"></label><br>
+                    <label>E-mail címe: <br>
+                        <input type="email" name="email"></label><br>
+                    <input type="submit" value="Elküldés"><input type="reset" value="Törlés">
+                </form>
+            </article>
+        </article>
+    </div>
+    <footer>
+        <p>Ez az oldal csak a képzeleted foszlánya, nem valós.</p>
+    </footer>
+</body>
+
+</html>
